@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int A,B,X,Y;//reqd input variables
+    cin>>A>>B>>X>>Y;
+    (X>Y)?cout<<A:cout<<B;
+	// your code goes here
+
+}
