@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int test;//test case variable
+    cin>>test;
+    for(int i=1;i<=test;i++)
+    {
+        int A,B,C;
+        cin>>A>>B>>C;
+        if((A<=B+C+1)&&(B<=A+C+1)&&(C<=A+B+1))//to arrive at the cdn(basially to find relation between A,B,C and to find upper limit), consider we have B and C;to maximise A; A should be placed in everygap which is B+C-1+2;further without losing generallity extend this for B and C and apply logic AND; 
+        {
+            cout<<"YES";
+            
+        }
+        else
+        {
+            cout<<"NO";
+        }
+        cout<<endl;
+        
+    }
+	// your code goes here
+
+}
